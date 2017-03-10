@@ -1,0 +1,5 @@
+---
+applications:
+- name: pact-broker
+  memory: 256M
+  buildpack: ruby_buildpack
