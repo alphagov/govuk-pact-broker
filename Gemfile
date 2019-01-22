@@ -1,4 +1,4 @@
-ruby "2.3.3"
+ruby File.read(".ruby-version").chomp
 
 source "https://rubygems.org"
 
