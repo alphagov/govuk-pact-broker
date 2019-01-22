@@ -5,4 +5,4 @@ source "https://rubygems.org"
 gem "pact_broker", "~> 1.9"
 
 gem "pg", "~> 0.18"
-gem "unicorn", "~> 4.9"
+gem "unicorn", "~> 5.4"
