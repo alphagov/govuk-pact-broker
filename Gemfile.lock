@@ -139,7 +139,7 @@ GEM
     tilt (2.0.10)
     tins (1.22.2)
     uber (0.1.0)
-    unicorn (5.5.1)
+    unicorn (5.5.2)
       kgio (~> 2.6)
       raindrops (~> 0.7)
     webmachine (1.5.0)
