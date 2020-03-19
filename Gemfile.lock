@@ -92,7 +92,7 @@ GEM
       sinatra (>= 2.0.0)
       thor (~> 0.18)
     padrino-support (0.14.4)
-    pg (1.2.2)
+    pg (1.2.3)
     rack (2.2.2)
     rack-protection (2.0.8.1)
       rack
