@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: bundler
+    directory: /
+    schedule:
+      interval: daily
+    allow:
+      # Framework gems
+      - dependency-name: pact_broker
+        dependency-type: direct
+      - dependency-name: pg
+        dependency-type: direct
+      - dependency-name: unicorn
+        dependency-type: direct
