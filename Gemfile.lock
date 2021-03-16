@@ -144,7 +144,7 @@ GEM
     tins (1.28.0)
       sync
     uber (0.1.0)
-    unicorn (5.7.0)
+    unicorn (5.8.0)
       kgio (~> 2.6)
       raindrops (~> 0.7)
     webmachine (1.5.0)
@@ -158,7 +158,7 @@ PLATFORMS
 DEPENDENCIES
   pact_broker (~> 2.79)
   pg (~> 1.2)
-  unicorn (~> 5.7)
+  unicorn (~> 5.8)
 
 RUBY VERSION
    ruby 2.5.3p105
