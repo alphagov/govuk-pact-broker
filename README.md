@@ -43,6 +43,7 @@ $ bundle exec unicorn
 
 - [Infrastructure](docs/infrastructure.md)
 - [Deployment](docs/deployment.md)
+- [Versioning](docs/versioning.md)
 
 [pact-broker-gem]: https://github.com/bethesque/pact_broker
 [government-paas]: https://docs.cloud.service.gov.uk/
