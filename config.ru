@@ -26,7 +26,7 @@ end
 class CustomVersionParser
   def self.call(string_version)
     case string_version
-    when "master", /\Abranch-/
+    when "main", /\Abranch-/
       Version.new(string_version)
     else
       Version.new(::Versionomy.parse(string_version))
