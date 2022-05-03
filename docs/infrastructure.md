@@ -1,6 +1,6 @@
 # Infrastructure
 
-This app is deployed on [GOV.UK PAAS][government-paas].
+This guidance is about how to setup the app from scratch on [GOV.UK PAAS][government-paas].
 
 ## Space for the app
 
