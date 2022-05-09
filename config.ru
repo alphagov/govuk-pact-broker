@@ -54,7 +54,7 @@ app = PactBroker::App.new do | config |
   # config.log_dir = "./log"
   # config.auto_migrate_db = true
   # config.use_hal_browser = true
-  config.logger = Logger.new($stdout)
+  config.log_stream = "stdout"
 
   # Have a look at the Sequel documentation to make decisions about things like connection pooling
   # and connection validation.
