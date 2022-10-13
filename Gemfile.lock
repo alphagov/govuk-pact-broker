@@ -100,7 +100,7 @@ GEM
       thor (~> 1.0)
     padrino-support (0.15.1)
     parslet (2.0.0)
-    pg (1.4.3)
+    pg (1.4.4)
     racc (1.6.0)
     rack (2.2.4)
     rack-protection (2.2.2)
