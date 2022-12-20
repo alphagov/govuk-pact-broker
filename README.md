@@ -50,3 +50,7 @@ $ bundle exec unicorn
 [publishing-api]: https://github.com/alphagov/publishing-api
 [gds-api-adapters]: https://github.com/alphagov/gds-api-adapters
 [content-store]: https://github.com/alphagov/content-store
+
+## Licence
+
+[MIT License](LICENCE)
