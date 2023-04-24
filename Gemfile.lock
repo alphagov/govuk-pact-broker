@@ -101,7 +101,7 @@ GEM
       thor (~> 1.0)
     padrino-support (0.15.2)
     parslet (2.0.0)
-    pg (1.4.6)
+    pg (1.5.0)
     racc (1.6.2)
     rack (2.2.6.4)
     rack-protection (2.2.4)
@@ -157,7 +157,7 @@ PLATFORMS
 
 DEPENDENCIES
   pact_broker (~> 2.106)
-  pg (~> 1.4)
+  pg (~> 1.5)
   unicorn (~> 6.1)
 
 BUNDLED WITH
