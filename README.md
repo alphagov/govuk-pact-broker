@@ -4,11 +4,17 @@ This repo is a thin wrapper around the [Pact Broker Gem][pact-broker-gem] that
 allows Pact Broker to be run on unicorn server on the
 [GOV.UK PAAS][government-paas].
 
-It is used by projects such as [Publishing API][publishing-api],
+As PaaS is being decommissioned later this year, we are currently migrating
+Pact Broker to Heroku, and so this repo also contains a `Dockerfile` and
+associated `heroku.yml` file to allow it to run there. After the migration is
+complete, the leftover pieces of the old wrapper (`config.ru`, `Gemfile`,
+`Procfile`, etc.) will be removed from this repo.
+
+Pact Broker is used by projects such as [Publishing API][publishing-api],
 [GDS API Adapters][gds-api-adapters] and [Content Store][content-store] for
 contract testing.
 
-## Getting started
+## Getting started (legacy version)
 
 ### Install dependencies
 
